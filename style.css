@@ -673,6 +673,9 @@ img { max-width: 100%; }
   object-fit: contain;
   filter: brightness(0.9);
   transition: var(--transition);
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
 }
 .brand-logo-item:hover img { filter: brightness(1.2) drop-shadow(0 0 6px rgba(94,200,200,0.5)); }
 .brand-logo-item span {
