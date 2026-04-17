@@ -1,584 +1,1412 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Future Boxx – Advanced Machine and Hardware | IT Solutions Indore</title>
-  <meta name="description" content="Future Boxx is a trusted provider of IT hardware, security systems, networking solutions, and POS systems in Indore, Madhya Pradesh. Professional installation and technical support." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Future Boxx – Advanced Machine and Hardware | IT Solutions Indore
+    </title>
+    <meta
+      name="description"
+      content="Future Boxx is a trusted provider of IT hardware, security systems, networking solutions, and POS systems in Indore, Madhya Pradesh. Professional installation and technical support."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#home" class="nav-logo">
+          <img
+            src="assets/logo_final.png"
+            alt="Future Boxx Logo"
+            id="nav-logo-img"
+          />
+        </a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="#brands" class="nav-link">Brands</a></li>
+          <li><a href="#clients" class="nav-link">Clients</a></li>
+          <li>
+            <a href="contact.html" class="nav-link nav-cta">Contact Us</a>
+          </li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
 
-  <!-- ===== NAVBAR ===== -->
-  <nav class="navbar" id="navbar">
-    <div class="nav-container">
-      <a href="#home" class="nav-logo">
-        <img src="assets/logo_final.png" alt="Future Boxx Logo" id="nav-logo-img" />
-      </a>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#home" class="nav-link active">Home</a></li>
-        <li><a href="about.html" class="nav-link">About</a></li>
-        <li><a href="services.html" class="nav-link">Services</a></li>
-        <li><a href="#brands" class="nav-link">Brands</a></li>
-        <li><a href="#clients" class="nav-link">Clients</a></li>
-        <li><a href="contact.html" class="nav-link nav-cta">Contact Us</a></li>
-      </ul>
-      <button class="hamburger" id="hamburger" aria-label="Menu">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </nav>
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="home">
+      <div class="hero-bg-grid"></div>
+      <div class="hero-floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+      </div>
+      <div style="max-width: 1200px">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            Advanced Machine &amp; Hardware Solutions
+          </div>
+          <h1 class="hero-title">
+            Powering Your<br />
+            <span class="hero-title-accent">Digital Future</span><br />
+            with Trusted Technology
+          </h1>
+          <p class="hero-subtitle">
+            IT Hardware · Security Systems · Networking Solutions · POS
+            Systems<br />
+            Serving businesses across Indore with world-class technology
+          </p>
+          <div class="hero-actions">
+            <a
+              href="services.html"
+              class="btn btn-primary"
+              id="hero-explore-btn"
+              >Explore Services</a
+            >
+            <a href="contact.html" class="btn btn-outline" id="hero-contact-btn"
+              >Get in Touch</a
+            >
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-number">25+</span>
+              <span class="stat-label">Happy Clients</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-number">4</span>
+              <span class="stat-label">Core Services</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-number">15+</span>
+              <span class="stat-label">Partner Brands</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-logo-card">
+            <img
+              src="assets/logo_final.png"
+              alt="Future Boxx"
+              class="hero-logo-img"
+            />
+            <div class="hero-logo-glow"></div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll-hint">
+        <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+        <span>Scroll to explore</span>
+      </div>
+    </section>
 
-  <!-- ===== HERO SECTION ===== -->
-  <section class="hero" id="home">
-    <div class="hero-bg-grid"></div>
-    <div class="hero-floating-shapes">
-      <div class="shape shape-1"></div>
-      <div class="shape shape-2"></div>
-      <div class="shape shape-3"></div>
-      <div class="shape shape-4"></div>
-    </div>
-    <div class="hero-content">
-      <div class="hero-badge">
-        <span class="badge-dot"></span>
-        Advanced Machine &amp; Hardware Solutions
-      </div>
-      <h1 class="hero-title">
-        Powering Your<br />
-        <span class="hero-title-accent">Digital Future</span><br />
-        with Trusted Technology
-      </h1>
-      <p class="hero-subtitle">
-        IT Hardware · Security Systems · Networking Solutions · POS Systems<br />
-        Serving businesses across Indore with world-class technology
-      </p>
-      <div class="hero-actions">
-        <a href="services.html" class="btn btn-primary" id="hero-explore-btn">Explore Services</a>
-        <a href="contact.html" class="btn btn-outline" id="hero-contact-btn">Get in Touch</a>
-      </div>
-      <div class="hero-stats">
-        <div class="stat">
-          <span class="stat-number">25+</span>
-          <span class="stat-label">Happy Clients</span>
+    <!-- ===== ABOUT SECTION ===== -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Who We Are</span>
+          <h2 class="section-title">
+            About <span class="text-teal">Future Boxx</span>
+          </h2>
         </div>
-        <div class="stat-divider"></div>
-        <div class="stat">
-          <span class="stat-number">4</span>
-          <span class="stat-label">Core Services</span>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat">
-          <span class="stat-number">15+</span>
-          <span class="stat-label">Partner Brands</span>
-        </div>
-      </div>
-    </div>
-    <div class="hero-visual">
-      <div class="hero-logo-card">
-        <img src="assets/logo_final.png" alt="Future Boxx" class="hero-logo-img" />
-        <div class="hero-logo-glow"></div>
-      </div>
-    </div>
-    <div class="hero-scroll-hint">
-      <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
-      <span>Scroll to explore</span>
-    </div>
-  </section>
-
-  <!-- ===== ABOUT SECTION ===== -->
-  <section class="section about-section" id="about">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">Who We Are</span>
-        <h2 class="section-title">About <span class="text-teal">Future Boxx</span></h2>
-      </div>
-      <div class="about-grid">
-        <div class="about-text">
-          <p class="about-desc">
-            Future Boxx is a trusted provider of <strong>IT hardware, security systems, and networking solutions</strong> designed to support businesses, institutions, and individuals with reliable technology.
-          </p>
-          <p class="about-desc">
-            We specialize in delivering <strong>high-quality products, professional installation, and dependable technical support</strong> to help organizations build efficient and secure digital infrastructures.
-          </p>
-          <p class="about-desc">
-            With industry expertise and a customer-focused approach, Future Boxx ensures <strong>cost-effective, scalable, and future-ready technology solutions</strong> tailored to your needs.
-          </p>
-          <div class="about-highlights">
-            <div class="highlight-item">
-              <div class="highlight-icon">⚡</div>
-              <div>
-                <strong>Fast Deployment</strong>
-                <span>Professional installation teams on-site</span>
+        <div class="about-grid">
+          <div class="about-text">
+            <p class="about-desc">
+              Future Boxx is a trusted provider of
+              <strong
+                >IT hardware, security systems, and networking solutions</strong
+              >
+              designed to support businesses, institutions, and individuals with
+              reliable technology.
+            </p>
+            <p class="about-desc">
+              We specialize in delivering
+              <strong
+                >high-quality products, professional installation, and
+                dependable technical support</strong
+              >
+              to help organizations build efficient and secure digital
+              infrastructures.
+            </p>
+            <p class="about-desc">
+              With industry expertise and a customer-focused approach, Future
+              Boxx ensures
+              <strong
+                >cost-effective, scalable, and future-ready technology
+                solutions</strong
+              >
+              tailored to your needs.
+            </p>
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <div class="highlight-icon">⚡</div>
+                <div>
+                  <strong>Fast Deployment</strong>
+                  <span>Professional installation teams on-site</span>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <div class="highlight-icon">🛡️</div>
+                <div>
+                  <strong>Reliable Support</strong>
+                  <span>Post-installation technical assistance</span>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <div class="highlight-icon">📈</div>
+                <div>
+                  <strong>Scalable Solutions</strong>
+                  <span>Technology that grows with your business</span>
+                </div>
               </div>
             </div>
-            <div class="highlight-item">
-              <div class="highlight-icon">🛡️</div>
+          </div>
+          <div class="about-cards">
+            <div class="mission-card">
+              <div class="mission-icon">🎯</div>
+              <h3>Our Mission</h3>
+              <p>
+                To deliver reliable technology solutions that empower businesses
+                and individuals through innovation, quality, and excellent
+                service.
+              </p>
+            </div>
+            <div class="vision-card">
+              <div class="mission-icon">🔭</div>
+              <h3>Our Vision</h3>
+              <p>
+                To become a leading provider of integrated IT and security
+                solutions known for trust, performance, and customer
+                satisfaction.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PRODUCTS SECTION ===== -->
+    <section class="section products-section" id="products">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">What We Offer</span>
+          <h2 class="section-title">
+            Our <span class="text-teal">Services</span>
+          </h2>
+          <p class="section-subtitle">
+            Comprehensive technology solutions for every business need
+          </p>
+        </div>
+        <div class="products-grid products-grid-4">
+          <div class="product-card featured-card" id="product-it-services">
+            <div class="product-icon-wrap">
+              <svg class="product-icon" viewBox="0 0 48 48" fill="none">
+                <path
+                  d="M6 14l12-8 12 8v10l-12 8-12-8V14z"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                />
+                <path
+                  d="M18 6v28M6 14l12 8 12-8"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M26 28l8 6 8-6v-8l-8-6-8 6v8z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <h3>IT Services</h3>
+            <p>
+              End-to-end IT support, maintenance, and consulting for your
+              business.
+            </p>
+            <ul class="product-list">
+              <li>System Maintenance</li>
+              <li>Data Recovery</li>
+              <li>Hardware Upgrades</li>
+              <li>IT Consulting</li>
+              <li>Annual Maintenance Contracts</li>
+            </ul>
+            <div class="product-tag">Services</div>
+            <a
+              href="it-services.html"
+              class="sov-link"
+              style="margin-top: 16px; display: inline-flex; font-size: 0.88rem"
+              >Learn More →</a
+            >
+          </div>
+
+          <div class="product-card featured-card" id="product-networking">
+            <div class="product-icon-wrap">
+              <svg class="product-icon" viewBox="0 0 48 48" fill="none">
+                <circle
+                  cx="24"
+                  cy="10"
+                  r="4"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                />
+                <circle
+                  cx="10"
+                  cy="38"
+                  r="4"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                />
+                <circle
+                  cx="38"
+                  cy="38"
+                  r="4"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                />
+                <path
+                  d="M24 14v8M20.5 36l-7-14M27.5 36l7-14"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M14 38h20"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <h3>Networking Solutions</h3>
+            <p>
+              Professional networking infrastructure for every modern
+              organization.
+            </p>
+            <ul class="product-list">
+              <li>Office Network Setup</li>
+              <li>Router &amp; Switch Configuration</li>
+              <li>WiFi Installation</li>
+              <li>Structured Cabling Solutions</li>
+              <li>Secure Network Architecture</li>
+            </ul>
+            <div class="product-tag">Networking</div>
+            <div class="featured-badge">Most Popular</div>
+            <a
+              href="networking.html"
+              class="sov-link"
+              style="margin-top: 16px; display: inline-flex; font-size: 0.88rem"
+              >Learn More →</a
+            >
+          </div>
+
+          <div class="product-card featured-card" id="product-pos">
+            <div class="product-icon-wrap">
+              <svg class="product-icon" viewBox="0 0 48 48" fill="none">
+                <rect
+                  x="10"
+                  y="6"
+                  width="28"
+                  height="22"
+                  rx="3"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                />
+                <rect
+                  x="14"
+                  y="10"
+                  width="20"
+                  height="14"
+                  rx="1"
+                  fill="currentColor"
+                  opacity=".15"
+                />
+                <path
+                  d="M8 28h32v12a2 2 0 01-2 2H10a2 2 0 01-2-2V28z"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                />
+                <path
+                  d="M18 34h12"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <h3>POS Systems</h3>
+            <p>
+              Complete billing and retail management solutions for modern
+              businesses.
+            </p>
+            <ul class="product-list">
+              <li>POS Machines</li>
+              <li>Barcode Scanners</li>
+              <li>Billing Software Integration</li>
+              <li>Inventory Management</li>
+            </ul>
+            <div class="product-tag">Retail</div>
+            <a
+              href="pos-systems.html"
+              class="sov-link"
+              style="margin-top: 16px; display: inline-flex; font-size: 0.88rem"
+              >Learn More →</a
+            >
+          </div>
+
+          <div class="product-card featured-card" id="product-cctv">
+            <div class="product-icon-wrap">
+              <svg class="product-icon" viewBox="0 0 48 48" fill="none">
+                <circle
+                  cx="24"
+                  cy="22"
+                  r="8"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                />
+                <path
+                  d="M8 22c0-8.837 7.163-16 16-16s16 7.163 16 16"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M14 36l4-4M34 36l-4-4M24 30v6"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                />
+                <circle
+                  cx="24"
+                  cy="22"
+                  r="3"
+                  fill="currentColor"
+                  opacity=".4"
+                />
+              </svg>
+            </div>
+            <h3>CCTV, Security &amp; Surveillance</h3>
+            <p>
+              Advanced surveillance systems for homes, offices, and commercial
+              properties.
+            </p>
+            <ul class="product-list">
+              <li>CCTV Camera Installation</li>
+              <li>IP Camera Setup</li>
+              <li>Remote Monitoring Systems</li>
+              <li>Security Consultation</li>
+              <li>DVR / NVR Setup</li>
+            </ul>
+            <div class="product-tag">Security</div>
+            <div class="featured-badge">Most Popular</div>
+            <a
+              href="cctv-security.html"
+              class="sov-link"
+              style="margin-top: 16px; display: inline-flex; font-size: 0.88rem"
+              >Learn More →</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BRANDS SECTION ===== -->
+    <section class="section brands-section" id="brands">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Our Partners</span>
+          <h2 class="section-title">
+            Brands We <span class="text-teal">Deal With</span>
+          </h2>
+          <p class="section-subtitle">
+            We are authorized resellers &amp; service partners of the world's
+            leading technology brands
+          </p>
+        </div>
+
+        <!-- Row 1 ticker: Hardware / PC Brands -->
+        <div class="brands-ticker-wrap">
+          <div class="brands-ticker" id="brandsTicker">
+            <!-- SET 1 -->
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/hp.svg"
+                alt="HP"
+                onerror="this.style.display = 'none'"
+              /><span>HP</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/dell.svg"
+                alt="Dell"
+                onerror="this.style.display = 'none'"
+              /><span>Dell</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/asus.svg"
+                alt="Asus"
+                onerror="this.style.display = 'none'"
+              /><span>Asus</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/lenovo.svg"
+                alt="Lenovo"
+                onerror="this.style.display = 'none'"
+              /><span>Lenovo</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/intel.svg"
+                alt="Intel"
+                onerror="this.style.display = 'none'"
+              /><span>Intel</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/amd.svg"
+                alt="AMD"
+                onerror="this.style.display = 'none'"
+              /><span>AMD</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/apple.svg"
+                alt="Apple"
+                onerror="this.style.display = 'none'"
+              /><span>Apple</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/windows.svg"
+                alt="Windows"
+                onerror="this.style.display = 'none'"
+              /><span>Windows</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/msi.svg"
+                alt="MSI"
+                onerror="this.style.display = 'none'"
+              /><span>MSI</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/nvidia.svg"
+                alt="NVIDIA"
+                onerror="this.style.display = 'none'"
+              /><span>NVIDIA</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/gigabyte.svg"
+                alt="Gigabyte"
+                onerror="this.style.display = 'none'"
+              /><span>Gigabyte</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/samsung.svg"
+                alt="Samsung"
+                onerror="this.style.display = 'none'"
+              /><span>Samsung</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/canon.png"
+                alt="Canon"
+                onerror="this.style.display = 'none'"
+              /><span>Canon</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/epson.svg"
+                alt="Epson"
+                onerror="this.style.display = 'none'"
+              /><span>Epson</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/logitech-logo.png"
+                alt="Logitech"
+                onerror="this.style.display = 'none'"
+              /><span>Logitech</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/seagate.svg"
+                alt="Seagate"
+                onerror="this.style.display = 'none'"
+              /><span>Seagate</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/tplink.svg"
+                alt="TP-Link"
+                onerror="this.style.display = 'none'"
+              /><span>TP-Link</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/dlink.png"
+                alt="D-Link"
+                onerror="this.style.display = 'none'"
+              /><span>D-Link</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/hikvision.png"
+                alt="Hikvision"
+                onerror="this.style.display = 'none'"
+              /><span>Hikvision</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/cpplus.png"
+                alt="CP Plus"
+                onerror="this.style.display = 'none'"
+              /><span>CP Plus</span>
+            </div>
+            <!-- SET 2 (duplicate for seamless loop) -->
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/hp.svg"
+                alt="HP"
+                onerror="this.style.display = 'none'"
+              /><span>HP</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/dell.svg"
+                alt="Dell"
+                onerror="this.style.display = 'none'"
+              /><span>Dell</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/asus.svg"
+                alt="Asus"
+                onerror="this.style.display = 'none'"
+              /><span>Asus</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/lenovo.svg"
+                alt="Lenovo"
+                onerror="this.style.display = 'none'"
+              /><span>Lenovo</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/intel.svg"
+                alt="Intel"
+                onerror="this.style.display = 'none'"
+              /><span>Intel</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/amd.svg"
+                alt="AMD"
+                onerror="this.style.display = 'none'"
+              /><span>AMD</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/apple.svg"
+                alt="Apple"
+                onerror="this.style.display = 'none'"
+              /><span>Apple</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/windows.svg"
+                alt="Windows"
+                onerror="this.style.display = 'none'"
+              /><span>Windows</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/msi.svg"
+                alt="MSI"
+                onerror="this.style.display = 'none'"
+              /><span>MSI</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/nvidia.svg"
+                alt="NVIDIA"
+                onerror="this.style.display = 'none'"
+              /><span>NVIDIA</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/gigabyte.svg"
+                alt="Gigabyte"
+                onerror="this.style.display = 'none'"
+              /><span>Gigabyte</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/samsung.svg"
+                alt="Samsung"
+                onerror="this.style.display = 'none'"
+              /><span>Samsung</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/canon.png"
+                alt="Canon"
+                onerror="this.style.display = 'none'"
+              /><span>Canon</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/epson.svg"
+                alt="Epson"
+                onerror="this.style.display = 'none'"
+              /><span>Epson</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/logitech-logo.png"
+                alt="Logitech"
+                onerror="this.style.display = 'none'"
+              /><span>Logitech</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/seagate.svg"
+                alt="Seagate"
+                onerror="this.style.display = 'none'"
+              /><span>Seagate</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/tplink.svg"
+                alt="TP-Link"
+                onerror="this.style.display = 'none'"
+              /><span>TP-Link</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/dlink.png"
+                alt="D-Link"
+                onerror="this.style.display = 'none'"
+              /><span>D-Link</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/hikvision.png"
+                alt="Hikvision"
+                onerror="this.style.display = 'none'"
+              /><span>Hikvision</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/cpplus.png"
+                alt="CP Plus"
+                onerror="this.style.display = 'none'"
+              /><span>CP Plus</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row 2 ticker: Peripherals / Security / Storage (reverse direction) -->
+        <div class="brands-ticker-wrap" style="margin-top: 20px">
+          <div class="brands-ticker brands-ticker-reverse" id="brandsTickerR">
+            <!-- SET 1 -->
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/cpplus.png"
+                alt="CP Plus"
+                onerror="this.style.display = 'none'"
+              /><span>CP Plus</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/hikvision.png"
+                alt="Hikvision"
+                onerror="this.style.display = 'none'"
+              /><span>Hikvision</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/dlink.png"
+                alt="D-Link"
+                onerror="this.style.display = 'none'"
+              /><span>D-Link</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/tplink.svg"
+                alt="TP-Link"
+                onerror="this.style.display = 'none'"
+              /><span>TP-Link</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/seagate.svg"
+                alt="Seagate"
+                onerror="this.style.display = 'none'"
+              /><span>Seagate</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/logitech-logo.png"
+                alt="Logitech"
+                onerror="this.style.display = 'none'"
+              /><span>Logitech</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/epson.svg"
+                alt="Epson"
+                onerror="this.style.display = 'none'"
+              /><span>Epson</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/canon.png"
+                alt="Canon"
+                onerror="this.style.display = 'none'"
+              /><span>Canon</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/samsung.svg"
+                alt="Samsung"
+                onerror="this.style.display = 'none'"
+              /><span>Samsung</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/gigabyte.svg"
+                alt="Gigabyte"
+                onerror="this.style.display = 'none'"
+              /><span>Gigabyte</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/nvidia.svg"
+                alt="NVIDIA"
+                onerror="this.style.display = 'none'"
+              /><span>NVIDIA</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/msi.svg"
+                alt="MSI"
+                onerror="this.style.display = 'none'"
+              /><span>MSI</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/windows.svg"
+                alt="Windows"
+                onerror="this.style.display = 'none'"
+              /><span>Windows</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/apple.svg"
+                alt="Apple"
+                onerror="this.style.display = 'none'"
+              /><span>Apple</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/amd.svg"
+                alt="AMD"
+                onerror="this.style.display = 'none'"
+              /><span>AMD</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/intel.svg"
+                alt="Intel"
+                onerror="this.style.display = 'none'"
+              /><span>Intel</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/lenovo.svg"
+                alt="Lenovo"
+                onerror="this.style.display = 'none'"
+              /><span>Lenovo</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/asus.svg"
+                alt="Asus"
+                onerror="this.style.display = 'none'"
+              /><span>Asus</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/dell.svg"
+                alt="Dell"
+                onerror="this.style.display = 'none'"
+              /><span>Dell</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/hp.svg"
+                alt="HP"
+                onerror="this.style.display = 'none'"
+              /><span>HP</span>
+            </div>
+
+            <!-- SET 2 (duplicate for seamless loop) -->
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/cpplus.png"
+                alt="CP Plus"
+                onerror="this.style.display = 'none'"
+              /><span>CP Plus</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/hikvision.png"
+                alt="Hikvision"
+                onerror="this.style.display = 'none'"
+              /><span>Hikvision</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/dlink.png"
+                alt="D-Link"
+                onerror="this.style.display = 'none'"
+              /><span>D-Link</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/tplink.svg"
+                alt="TP-Link"
+                onerror="this.style.display = 'none'"
+              /><span>TP-Link</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/seagate.svg"
+                alt="Seagate"
+                onerror="this.style.display = 'none'"
+              /><span>Seagate</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/logitech-logo.png"
+                alt="Logitech"
+                onerror="this.style.display = 'none'"
+              /><span>Logitech</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/epson.svg"
+                alt="Epson"
+                onerror="this.style.display = 'none'"
+              /><span>Epson</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/canon.png"
+                alt="Canon"
+                onerror="this.style.display = 'none'"
+              /><span>Canon</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/samsung.svg"
+                alt="Samsung"
+                onerror="this.style.display = 'none'"
+              /><span>Samsung</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/gigabyte.svg"
+                alt="Gigabyte"
+                onerror="this.style.display = 'none'"
+              /><span>Gigabyte</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/nvidia.svg"
+                alt="NVIDIA"
+                onerror="this.style.display = 'none'"
+              /><span>NVIDIA</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/msi.svg"
+                alt="MSI"
+                onerror="this.style.display = 'none'"
+              /><span>MSI</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/windows.svg"
+                alt="Windows"
+                onerror="this.style.display = 'none'"
+              /><span>Windows</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/apple.svg"
+                alt="Apple"
+                onerror="this.style.display = 'none'"
+              /><span>Apple</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/amd.svg"
+                alt="AMD"
+                onerror="this.style.display = 'none'"
+              /><span>AMD</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/intel.svg"
+                alt="Intel"
+                onerror="this.style.display = 'none'"
+              /><span>Intel</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/lenovo.svg"
+                alt="Lenovo"
+                onerror="this.style.display = 'none'"
+              /><span>Lenovo</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/asus.svg"
+                alt="Asus"
+                onerror="this.style.display = 'none'"
+              /><span>Asus</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/dell.svg"
+                alt="Dell"
+                onerror="this.style.display = 'none'"
+              /><span>Dell</span>
+            </div>
+            <div class="brand-logo-item">
+              <img
+                src="assets/brands/hp.svg"
+                alt="HP"
+                onerror="this.style.display = 'none'"
+              /><span>HP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CLIENTS SECTION ===== -->
+    <section class="section clients-section" id="clients">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Trusted By</span>
+          <h2 class="section-title">
+            Our <span class="text-teal">Clients</span>
+          </h2>
+          <p class="section-subtitle">
+            25+ organizations trust Future Boxx for their technology needs
+          </p>
+        </div>
+        <div class="clients-grid">
+          <div class="client-card">
+            <img
+              src="assets/clients/yug-shakti-shekshanik.jpeg"
+              alt="Yug Shakti"
+              class="client-logo"
+            />
+            <p>Yug Shakti Shekshanik Evam Samajik Vikas Sanstha</p>
+          </div>
+          <div class="client-card">
+            <img
+              src="assets/clients/san-sprito.jpeg"
+              alt="Sansprito India"
+              class="client-logo"
+            />
+            <p>Sansprito India Pvt. Ltd.</p>
+          </div>
+          <div class="client-card">
+            <img
+              src="assets/clients/design-cell-indore.jpeg"
+              alt="Design Cell"
+              class="client-logo"
+            />
+            <p>Design Cell</p>
+          </div>
+          <div class="client-card">
+            <img
+              src="assets/clients/heer-enviro-services-private-limited.jpeg"
+              alt="Heer Enviro Services"
+              class="client-logo"
+            />
+            <p>Heer Enviro Services Private Limited</p>
+          </div>
+          <div class="client-card">
+            <img
+              src="assets/clients/oviyan-events-and-entertainment.jpeg"
+              alt="Oviyan Events"
+              class="client-logo"
+            />
+            <p>Oviyan Events and Entertainment</p>
+          </div>
+          <div class="client-card">
+            <img
+              src="assets/clients/rs-diamond-and-solitare.jpeg"
+              alt="R.S Diamond"
+              class="client-logo"
+            />
+            <p>R.S Diamond and Solitaire</p>
+          </div>
+          <div class="client-card">
+            <img
+              src="assets/clients/krm-global.jpeg"
+              alt="KRM Global"
+              class="client-logo"
+            />
+            <p>KRM Global</p>
+          </div>
+          <div class="client-card">
+            <img
+              src="assets/clients/griffin-infratech.jpeg"
+              alt="Griffin Infratech"
+              class="client-logo"
+            />
+            <p>Griffin Infratech</p>
+          </div>
+          <div class="client-card">
+            <img
+              src="assets/clients/man-industries.jpeg"
+              alt="Man Industries"
+              class="client-logo"
+            />
+            <p>Man Industries</p>
+          </div>
+          <div class="client-card">
+            <img
+              src="assets/clients/ics-industrial-automation-pvt-ltd.jpeg"
+              alt="ICS Industrial Automation"
+              class="client-logo"
+            />
+            <p>ICS Industrial Automation Pvt. Ltd.</p>
+          </div>
+          <div class="client-card">
+            <img
+              src="assets/clients/mp-billiards-and-snooker-association.jpeg"
+              alt="MP Billiards"
+              class="client-logo"
+            />
+            <p>MP Billiards and Snooker Association</p>
+          </div>
+          <div class="client-card">
+            <img
+              src="assets/clients/cosmos-vedic-world-pvt-ltd.jpeg"
+              alt="Cosmos Vedic World"
+              class="client-logo"
+            />
+            <p>Cosmos Vedic World Pvt. Ltd.</p>
+          </div>
+          <div class="client-card">
+            <img
+              src="assets/clients/the-learning-temple-school.jpeg"
+              alt="The Learning Temple School"
+              class="client-logo"
+            />
+            <p>The Learning Temple School</p>
+          </div>
+          <div class="client-card">
+            <img
+              src="assets/clients/techradix-pvt-ltd.jpeg"
+              alt="TechRadix"
+              class="client-logo"
+            />
+            <p>TechRadix Pvt. Ltd.</p>
+          </div>
+          <div class="client-card">
+            <img
+              src="assets/clients/john-distillery-pvt-ltd.jpeg"
+              alt="John Distillery"
+              class="client-logo"
+            />
+            <p>John Distillery Pvt. Ltd.</p>
+          </div>
+          <div class="client-card">
+            <img
+              src="assets/clients/wild-drum-beverages-pvt-ltd.jpeg"
+              alt="Wild Drum Beverages"
+              class="client-logo"
+            />
+            <p>Wild Drum Beverages Pvt. Ltd.</p>
+          </div>
+          <div class="client-card">
+            <img
+              src="assets/clients/nahata-motors-pvt-ltd.jpeg"
+              alt="Nahata Motors"
+              class="client-logo"
+            />
+            <p>Nahata Motors Pvt. Ltd.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHY US SECTION ===== -->
+    <section class="section whyus-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Why Choose Us</span>
+          <h2 class="section-title">
+            The Future Boxx <span class="text-teal">Advantage</span>
+          </h2>
+        </div>
+        <div class="whyus-grid">
+          <div class="why-card">
+            <div class="why-number">01</div>
+            <h3>Quality Assured Products</h3>
+            <p>
+              Every product we supply is from verified, reputable brands with
+              genuine warranties.
+            </p>
+          </div>
+          <div class="why-card">
+            <div class="why-number">02</div>
+            <h3>Expert Installation</h3>
+            <p>
+              Certified technicians handle every setup — from networking to CCTV
+              — with precision.
+            </p>
+          </div>
+          <div class="why-card">
+            <div class="why-number">03</div>
+            <h3>Post-Sale Support</h3>
+            <p>
+              We don't disappear after delivery. Our support team is always
+              ready to assist you.
+            </p>
+          </div>
+          <div class="why-card">
+            <div class="why-number">04</div>
+            <h3>Corporate Bulk Deals</h3>
+            <p>
+              Special pricing and SLA-backed contracts for businesses and
+              institutions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Reach Us</span>
+          <h2 class="section-title">
+            Get In <span class="text-teal">Touch</span>
+          </h2>
+          <p class="section-subtitle">
+            Let's talk about your technology requirements
+          </p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-card" id="contact-address">
+              <div class="contact-icon">📍</div>
               <div>
-                <strong>Reliable Support</strong>
-                <span>Post-installation technical assistance</span>
+                <h4>Office Address</h4>
+                <p>
+                  374, PU-4, Opposite Silvotel<br />Vijay Nagar, Indore (M.P.)
+                </p>
               </div>
             </div>
-            <div class="highlight-item">
-              <div class="highlight-icon">📈</div>
+            <div class="contact-card" id="contact-phone">
+              <div class="contact-icon">📞</div>
               <div>
-                <strong>Scalable Solutions</strong>
-                <span>Technology that grows with your business</span>
+                <h4>Phone</h4>
+                <p><a href="tel:+919826068900">+91 98260 68900</a></p>
+                <p><a href="tel:+918770189906">+91 87701 89906</a></p>
+              </div>
+            </div>
+            <div class="contact-card" id="contact-email">
+              <div class="contact-icon">📧</div>
+              <div>
+                <h4>Email</h4>
+                <p>
+                  <a href="mailto:Sales@amhsystems.in">Sales@amhsystems.in</a>
+                </p>
+              </div>
+            </div>
+            <div class="contact-card" id="contact-gst">
+              <div class="contact-icon">🏛️</div>
+              <div>
+                <h4>GST Number</h4>
+                <p>23ABECA9764B1ZT</p>
               </div>
             </div>
           </div>
-        </div>
-        <div class="about-cards">
-          <div class="mission-card">
-            <div class="mission-icon">🎯</div>
-            <h3>Our Mission</h3>
-            <p>To deliver reliable technology solutions that empower businesses and individuals through innovation, quality, and excellent service.</p>
-          </div>
-          <div class="vision-card">
-            <div class="mission-icon">🔭</div>
-            <h3>Our Vision</h3>
-            <p>To become a leading provider of integrated IT and security solutions known for trust, performance, and customer satisfaction.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- ===== PRODUCTS SECTION ===== -->
-  <section class="section products-section" id="products">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">What We Offer</span>
-        <h2 class="section-title">Our <span class="text-teal">Services</span></h2>
-        <p class="section-subtitle">Comprehensive technology solutions for every business need</p>
-      </div>
-      <div class="products-grid products-grid-4">
-
-        <div class="product-card featured-card" id="product-it-services">
-          <div class="product-icon-wrap">
-            <svg class="product-icon" viewBox="0 0 48 48" fill="none"><path d="M6 14l12-8 12 8v10l-12 8-12-8V14z" stroke="currentColor" stroke-width="2.5"/><path d="M18 6v28M6 14l12 8 12-8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M26 28l8 6 8-6v-8l-8-6-8 6v8z" stroke="currentColor" stroke-width="2"/></svg>
-          </div>
-          <h3>IT Services</h3>
-          <p>End-to-end IT support, maintenance, and consulting for your business.</p>
-          <ul class="product-list">
-            <li>System Maintenance</li>
-            <li>Data Recovery</li>
-            <li>Hardware Upgrades</li>
-            <li>IT Consulting</li>
-            <li>Annual Maintenance Contracts</li>
-          </ul>
-          <div class="product-tag">Services</div>
-          <a href="it-services.html" class="sov-link" style="margin-top:16px;display:inline-flex;font-size:0.88rem;">Learn More →</a>
-        </div>
-
-        <div class="product-card featured-card" id="product-networking">
-          <div class="product-icon-wrap">
-            <svg class="product-icon" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="10" r="4" stroke="currentColor" stroke-width="2.5"/><circle cx="10" cy="38" r="4" stroke="currentColor" stroke-width="2.5"/><circle cx="38" cy="38" r="4" stroke="currentColor" stroke-width="2.5"/><path d="M24 14v8M20.5 36l-7-14M27.5 36l7-14" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M14 38h20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
-          </div>
-          <h3>Networking Solutions</h3>
-          <p>Professional networking infrastructure for every modern organization.</p>
-          <ul class="product-list">
-            <li>Office Network Setup</li>
-            <li>Router &amp; Switch Configuration</li>
-            <li>WiFi Installation</li>
-            <li>Structured Cabling Solutions</li>
-            <li>Secure Network Architecture</li>
-          </ul>
-          <div class="product-tag">Networking</div>
-          <div class="featured-badge">Most Popular</div>
-          <a href="networking.html" class="sov-link" style="margin-top:16px;display:inline-flex;font-size:0.88rem;">Learn More →</a>
-        </div>
-
-        <div class="product-card featured-card" id="product-pos">
-          <div class="product-icon-wrap">
-            <svg class="product-icon" viewBox="0 0 48 48" fill="none"><rect x="10" y="6" width="28" height="22" rx="3" stroke="currentColor" stroke-width="2.5"/><rect x="14" y="10" width="20" height="14" rx="1" fill="currentColor" opacity=".15"/><path d="M8 28h32v12a2 2 0 01-2 2H10a2 2 0 01-2-2V28z" stroke="currentColor" stroke-width="2.5"/><path d="M18 34h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-          </div>
-          <h3>POS Systems</h3>
-          <p>Complete billing and retail management solutions for modern businesses.</p>
-          <ul class="product-list">
-            <li>POS Machines</li>
-            <li>Barcode Scanners</li>
-            <li>Billing Software Integration</li>
-            <li>Inventory Management</li>
-          </ul>
-          <div class="product-tag">Retail</div>
-          <a href="pos-systems.html" class="sov-link" style="margin-top:16px;display:inline-flex;font-size:0.88rem;">Learn More →</a>
-        </div>
-
-        <div class="product-card featured-card" id="product-cctv">
-          <div class="product-icon-wrap">
-            <svg class="product-icon" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="22" r="8" stroke="currentColor" stroke-width="2.5"/><path d="M8 22c0-8.837 7.163-16 16-16s16 7.163 16 16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M14 36l4-4M34 36l-4-4M24 30v6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="24" cy="22" r="3" fill="currentColor" opacity=".4"/></svg>
-          </div>
-          <h3>CCTV, Security &amp; Surveillance</h3>
-          <p>Advanced surveillance systems for homes, offices, and commercial properties.</p>
-          <ul class="product-list">
-            <li>CCTV Camera Installation</li>
-            <li>IP Camera Setup</li>
-            <li>Remote Monitoring Systems</li>
-            <li>Security Consultation</li>
-            <li>DVR / NVR Setup</li>
-          </ul>
-          <div class="product-tag">Security</div>
-          <div class="featured-badge">Most Popular</div>
-          <a href="cctv-security.html" class="sov-link" style="margin-top:16px;display:inline-flex;font-size:0.88rem;">Learn More →</a>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== BRANDS SECTION ===== -->
-  <section class="section brands-section" id="brands">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">Our Partners</span>
-        <h2 class="section-title">Brands We <span class="text-teal">Deal With</span></h2>
-        <p class="section-subtitle">We are authorized resellers &amp; service partners of the world's leading technology brands</p>
-      </div>
-
-      <!-- Row 1 ticker: Hardware / PC Brands -->
-      <div class="brands-ticker-wrap">
-        <div class="brands-ticker" id="brandsTicker">
-          <!-- SET 1 -->
-          <div class="brand-logo-item"><img src="assets/brands/hp.svg" alt="HP" onerror="this.style.display='none'" /><span>HP</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/dell.svg" alt="Dell" onerror="this.style.display='none'" /><span>Dell</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/asus.svg" alt="Asus" onerror="this.style.display='none'" /><span>Asus</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/lenovo.svg" alt="Lenovo" onerror="this.style.display='none'" /><span>Lenovo</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/intel.svg" alt="Intel" onerror="this.style.display='none'" /><span>Intel</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/amd.svg" alt="AMD" onerror="this.style.display='none'" /><span>AMD</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/apple.svg" alt="Apple" onerror="this.style.display='none'" /><span>Apple</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/windows.svg" alt="Windows" onerror="this.style.display='none'" /><span>Windows</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/msi.svg" alt="MSI" onerror="this.style.display='none'" /><span>MSI</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/nvidia.svg" alt="NVIDIA" onerror="this.style.display='none'" /><span>NVIDIA</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/gigabyte.svg" alt="Gigabyte" onerror="this.style.display='none'" /><span>Gigabyte</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/samsung.svg" alt="Samsung" onerror="this.style.display='none'" /><span>Samsung</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/canon.png" alt="Canon" onerror="this.style.display='none'" /><span>Canon</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/epson.svg" alt="Epson" onerror="this.style.display='none'" /><span>Epson</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/logitech-logo.png" alt="Logitech" onerror="this.style.display='none'" /><span>Logitech</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/seagate.svg" alt="Seagate" onerror="this.style.display='none'" /><span>Seagate</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/tplink.svg" alt="TP-Link" onerror="this.style.display='none'" /><span>TP-Link</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/dlink.png" alt="D-Link" onerror="this.style.display='none'" /><span>D-Link</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/hikvision.png" alt="Hikvision" onerror="this.style.display='none'" /><span>Hikvision</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/cpplus.png" alt="CP Plus" onerror="this.style.display='none'" /><span>CP Plus</span></div>
-          <!-- SET 2 (duplicate for seamless loop) -->
-          <div class="brand-logo-item"><img src="assets/brands/hp.svg" alt="HP" onerror="this.style.display='none'" /><span>HP</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/dell.svg" alt="Dell" onerror="this.style.display='none'" /><span>Dell</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/asus.svg" alt="Asus" onerror="this.style.display='none'" /><span>Asus</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/lenovo.svg" alt="Lenovo" onerror="this.style.display='none'" /><span>Lenovo</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/intel.svg" alt="Intel" onerror="this.style.display='none'" /><span>Intel</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/amd.svg" alt="AMD" onerror="this.style.display='none'" /><span>AMD</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/apple.svg" alt="Apple" onerror="this.style.display='none'" /><span>Apple</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/windows.svg" alt="Windows" onerror="this.style.display='none'" /><span>Windows</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/msi.svg" alt="MSI" onerror="this.style.display='none'" /><span>MSI</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/nvidia.svg" alt="NVIDIA" onerror="this.style.display='none'" /><span>NVIDIA</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/gigabyte.svg" alt="Gigabyte" onerror="this.style.display='none'" /><span>Gigabyte</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/samsung.svg" alt="Samsung" onerror="this.style.display='none'" /><span>Samsung</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/canon.png" alt="Canon" onerror="this.style.display='none'" /><span>Canon</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/epson.svg" alt="Epson" onerror="this.style.display='none'" /><span>Epson</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/logitech-logo.png" alt="Logitech" onerror="this.style.display='none'" /><span>Logitech</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/seagate.svg" alt="Seagate" onerror="this.style.display='none'" /><span>Seagate</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/tplink.svg" alt="TP-Link" onerror="this.style.display='none'" /><span>TP-Link</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/dlink.png" alt="D-Link" onerror="this.style.display='none'" /><span>D-Link</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/hikvision.png" alt="Hikvision" onerror="this.style.display='none'" /><span>Hikvision</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/cpplus.png" alt="CP Plus" onerror="this.style.display='none'" /><span>CP Plus</span></div>
-        </div>
-      </div>
-
-      <!-- Row 2 ticker: Peripherals / Security / Storage (reverse direction) -->
-      <div class="brands-ticker-wrap" style="margin-top:20px;">
-        <div class="brands-ticker brands-ticker-reverse" id="brandsTickerR">
-          <!-- SET 1 -->
-          <div class="brand-logo-item"><img src="assets/brands/cpplus.png" alt="CP Plus" onerror="this.style.display='none'" /><span>CP Plus</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/hikvision.png" alt="Hikvision" onerror="this.style.display='none'" /><span>Hikvision</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/dlink.png" alt="D-Link" onerror="this.style.display='none'" /><span>D-Link</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/tplink.svg" alt="TP-Link" onerror="this.style.display='none'" /><span>TP-Link</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/seagate.svg" alt="Seagate" onerror="this.style.display='none'" /><span>Seagate</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/logitech-logo.png" alt="Logitech" onerror="this.style.display='none'" /><span>Logitech</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/epson.svg" alt="Epson" onerror="this.style.display='none'" /><span>Epson</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/canon.png" alt="Canon" onerror="this.style.display='none'" /><span>Canon</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/samsung.svg" alt="Samsung" onerror="this.style.display='none'" /><span>Samsung</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/gigabyte.svg" alt="Gigabyte" onerror="this.style.display='none'" /><span>Gigabyte</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/nvidia.svg" alt="NVIDIA" onerror="this.style.display='none'" /><span>NVIDIA</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/msi.svg" alt="MSI" onerror="this.style.display='none'" /><span>MSI</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/windows.svg" alt="Windows" onerror="this.style.display='none'" /><span>Windows</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/apple.svg" alt="Apple" onerror="this.style.display='none'" /><span>Apple</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/amd.svg" alt="AMD" onerror="this.style.display='none'" /><span>AMD</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/intel.svg" alt="Intel" onerror="this.style.display='none'" /><span>Intel</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/lenovo.svg" alt="Lenovo" onerror="this.style.display='none'" /><span>Lenovo</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/asus.svg" alt="Asus" onerror="this.style.display='none'" /><span>Asus</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/dell.svg" alt="Dell" onerror="this.style.display='none'" /><span>Dell</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/hp.svg" alt="HP" onerror="this.style.display='none'" /><span>HP</span></div>
-          
-          <!-- SET 2 (duplicate for seamless loop) -->
-          <div class="brand-logo-item"><img src="assets/brands/cpplus.png" alt="CP Plus" onerror="this.style.display='none'" /><span>CP Plus</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/hikvision.png" alt="Hikvision" onerror="this.style.display='none'" /><span>Hikvision</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/dlink.png" alt="D-Link" onerror="this.style.display='none'" /><span>D-Link</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/tplink.svg" alt="TP-Link" onerror="this.style.display='none'" /><span>TP-Link</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/seagate.svg" alt="Seagate" onerror="this.style.display='none'" /><span>Seagate</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/logitech-logo.png" alt="Logitech" onerror="this.style.display='none'" /><span>Logitech</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/epson.svg" alt="Epson" onerror="this.style.display='none'" /><span>Epson</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/canon.png" alt="Canon" onerror="this.style.display='none'" /><span>Canon</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/samsung.svg" alt="Samsung" onerror="this.style.display='none'" /><span>Samsung</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/gigabyte.svg" alt="Gigabyte" onerror="this.style.display='none'" /><span>Gigabyte</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/nvidia.svg" alt="NVIDIA" onerror="this.style.display='none'" /><span>NVIDIA</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/msi.svg" alt="MSI" onerror="this.style.display='none'" /><span>MSI</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/windows.svg" alt="Windows" onerror="this.style.display='none'" /><span>Windows</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/apple.svg" alt="Apple" onerror="this.style.display='none'" /><span>Apple</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/amd.svg" alt="AMD" onerror="this.style.display='none'" /><span>AMD</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/intel.svg" alt="Intel" onerror="this.style.display='none'" /><span>Intel</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/lenovo.svg" alt="Lenovo" onerror="this.style.display='none'" /><span>Lenovo</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/asus.svg" alt="Asus" onerror="this.style.display='none'" /><span>Asus</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/dell.svg" alt="Dell" onerror="this.style.display='none'" /><span>Dell</span></div>
-          <div class="brand-logo-item"><img src="assets/brands/hp.svg" alt="HP" onerror="this.style.display='none'" /><span>HP</span></div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-
-  <!-- ===== CLIENTS SECTION ===== -->
-  <section class="section clients-section" id="clients">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">Trusted By</span>
-        <h2 class="section-title">Our <span class="text-teal">Clients</span></h2>
-        <p class="section-subtitle">25+ organizations trust Future Boxx for their technology needs</p>
-      </div>
-      <div class="clients-grid">
-        <div class="client-card">
-          <img src="assets/clients/yug-shakti-shekshanik.jpeg" alt="Yug Shakti" class="client-logo" />
-          <p>Yug Shakti Shekshanik Evam Samajik Vikas Sanstha</p>
-        </div>
-        <div class="client-card">
-          <img src="assets/clients/san-sprito.jpeg" alt="Sansprito India" class="client-logo" />
-          <p>Sansprito India Pvt. Ltd.</p>
-        </div>
-        <div class="client-card">
-          <img src="assets/clients/design-cell-indore.jpeg" alt="Design Cell" class="client-logo" />
-          <p>Design Cell</p>
-        </div>
-        <div class="client-card">
-          <img src="assets/clients/heer-enviro-services-private-limited.jpeg" alt="Heer Enviro Services" class="client-logo" />
-          <p>Heer Enviro Services Private Limited</p>
-        </div>
-        <div class="client-card">
-          <img src="assets/clients/oviyan-events-and-entertainment.jpeg" alt="Oviyan Events" class="client-logo" />
-          <p>Oviyan Events and Entertainment</p>
-        </div>
-        <div class="client-card">
-          <img src="assets/clients/rs-diamond-and-solitare.jpeg" alt="R.S Diamond" class="client-logo" />
-          <p>R.S Diamond and Solitaire</p>
-        </div>
-        <div class="client-card">
-          <img src="assets/clients/krm-global.jpeg" alt="KRM Global" class="client-logo" />
-          <p>KRM Global</p>
-        </div>
-        <div class="client-card">
-          <img src="assets/clients/griffin-infratech.jpeg" alt="Griffin Infratech" class="client-logo" />
-          <p>Griffin Infratech</p>
-        </div>
-        <div class="client-card">
-          <img src="assets/clients/man-industries.jpeg" alt="Man Industries" class="client-logo" />
-          <p>Man Industries</p>
-        </div>
-        <div class="client-card">
-          <img src="assets/clients/ics-industrial-automation-pvt-ltd.jpeg" alt="ICS Industrial Automation" class="client-logo" />
-          <p>ICS Industrial Automation Pvt. Ltd.</p>
-        </div>
-        <div class="client-card">
-          <img src="assets/clients/mp-billiards-and-snooker-association.jpeg" alt="MP Billiards" class="client-logo" />
-          <p>MP Billiards and Snooker Association</p>
-        </div>
-        <div class="client-card">
-          <img src="assets/clients/cosmos-vedic-world-pvt-ltd.jpeg" alt="Cosmos Vedic World" class="client-logo" />
-          <p>Cosmos Vedic World Pvt. Ltd.</p>
-        </div>
-        <div class="client-card">
-          <img src="assets/clients/the-learning-temple-school.jpeg" alt="The Learning Temple School" class="client-logo" />
-          <p>The Learning Temple School</p>
-        </div>
-        <div class="client-card">
-          <img src="assets/clients/techradix-pvt-ltd.jpeg" alt="TechRadix" class="client-logo" />
-          <p>TechRadix Pvt. Ltd.</p>
-        </div>
-        <div class="client-card">
-          <img src="assets/clients/john-distillery-pvt-ltd.jpeg" alt="John Distillery" class="client-logo" />
-          <p>John Distillery Pvt. Ltd.</p>
-        </div>
-        <div class="client-card">
-          <img src="assets/clients/wild-drum-beverages-pvt-ltd.jpeg" alt="Wild Drum Beverages" class="client-logo" />
-          <p>Wild Drum Beverages Pvt. Ltd.</p>
-        </div>
-        <div class="client-card">
-          <img src="assets/clients/nahata-motors-pvt-ltd.jpeg" alt="Nahata Motors" class="client-logo" />
-          <p>Nahata Motors Pvt. Ltd.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== WHY US SECTION ===== -->
-  <section class="section whyus-section">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">Why Choose Us</span>
-        <h2 class="section-title">The Future Boxx <span class="text-teal">Advantage</span></h2>
-      </div>
-      <div class="whyus-grid">
-        <div class="why-card">
-          <div class="why-number">01</div>
-          <h3>Quality Assured Products</h3>
-          <p>Every product we supply is from verified, reputable brands with genuine warranties.</p>
-        </div>
-        <div class="why-card">
-          <div class="why-number">02</div>
-          <h3>Expert Installation</h3>
-          <p>Certified technicians handle every setup — from networking to CCTV — with precision.</p>
-        </div>
-        <div class="why-card">
-          <div class="why-number">03</div>
-          <h3>Post-Sale Support</h3>
-          <p>We don't disappear after delivery. Our support team is always ready to assist you.</p>
-        </div>
-        <div class="why-card">
-          <div class="why-number">04</div>
-          <h3>Corporate Bulk Deals</h3>
-          <p>Special pricing and SLA-backed contracts for businesses and institutions.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== CONTACT SECTION ===== -->
-  <section class="section contact-section" id="contact">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-tag">Reach Us</span>
-        <h2 class="section-title">Get In <span class="text-teal">Touch</span></h2>
-        <p class="section-subtitle">Let's talk about your technology requirements</p>
-      </div>
-      <div class="contact-grid">
-        <div class="contact-info">
-          <div class="contact-card" id="contact-address">
-            <div class="contact-icon">📍</div>
-            <div>
-              <h4>Office Address</h4>
-              <p>374, PU-4, Opposite Silvotel<br />Vijay Nagar, Indore (M.P.)</p>
+          <form
+            class="contact-form"
+            id="contactForm"
+            onsubmit="handleFormSubmit(event)"
+          >
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+              />
             </div>
-          </div>
-          <div class="contact-card" id="contact-phone">
-            <div class="contact-icon">📞</div>
-            <div>
-              <h4>Phone</h4>
-              <p><a href="tel:+919826068900">+91 98260 68900</a></p>
-              <p><a href="tel:+918770189906">+91 87701 89906</a></p>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
             </div>
-          </div>
-          <div class="contact-card" id="contact-email">
-            <div class="contact-icon">📧</div>
-            <div>
-              <h4>Email</h4>
-              <p><a href="mailto:Sales@amhsystems.in">Sales@amhsystems.in</a></p>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="+91 XXXXX XXXXX"
+              />
             </div>
-          </div>
-          <div class="contact-card" id="contact-gst">
-            <div class="contact-icon">🏛️</div>
-            <div>
-              <h4>GST Number</h4>
-              <p>23ABECA9764B1ZT</p>
+            <div class="form-group">
+              <label for="service">Service Interested In</label>
+              <select id="service" name="service">
+                <option value="">Select a service</option>
+                <option>IT Services</option>
+                <option>Networking Solutions</option>
+                <option>POS Systems</option>
+                <option>CCTV, Security &amp; Surveillance</option>
+              </select>
             </div>
-          </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Tell us about your requirements..."
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="btn btn-primary form-submit-btn"
+              id="form-submit-btn"
+            >
+              Send Message
+            </button>
+            <div class="form-success" id="formSuccess" style="display: none">
+              ✅ Thank you! We'll contact you shortly.
+            </div>
+          </form>
         </div>
-
-        <form class="contact-form" id="contactForm" onsubmit="handleFormSubmit(event)">
-          <div class="form-group">
-            <label for="name">Your Name</label>
-            <input type="text" id="name" name="name" placeholder="Enter your name" required />
-          </div>
-          <div class="form-group">
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required />
-          </div>
-          <div class="form-group">
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX" />
-          </div>
-          <div class="form-group">
-            <label for="service">Service Interested In</label>
-            <select id="service" name="service">
-              <option value="">Select a service</option>
-              <option>IT Services</option>
-              <option>Networking Solutions</option>
-              <option>POS Systems</option>
-              <option>CCTV, Security &amp; Surveillance</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="4" placeholder="Tell us about your requirements..."></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary form-submit-btn" id="form-submit-btn">Send Message</button>
-          <div class="form-success" id="formSuccess" style="display:none;">
-            ✅ Thank you! We'll contact you shortly.
-          </div>
-        </form>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== FOOTER ===== -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <img src="assets/logo_final.png" alt="Future Boxx" class="footer-logo" />
-          <p>Advanced Machine and Hardware solutions for a connected, secure, and efficient digital world.</p>
-          <p>AMH Systems Pvt. Ltd. is Your Trusted Technology Partner Since 2017.</p>
-          <div class="footer-gst">GST: 23ABECA9764B1ZT</div>
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <img
+              src="assets/logo_final.png"
+              alt="Future Boxx"
+              class="footer-logo"
+            />
+            <p>
+              Advanced Machine and Hardware solutions for a connected, secure,
+              and efficient digital world.
+            </p>
+            <p>
+              AMH Systems Pvt. Ltd. is Your Trusted Technology Partner Since
+              2017.
+            </p>
+            <div class="footer-gst">GST: 23ABECA9764B1ZT</div>
+          </div>
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="#brands">Brands</a></li>
+              <li><a href="#clients">Clients</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-products">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="it-services.html">IT Services</a></li>
+              <li><a href="networking.html">Networking Solutions</a></li>
+              <li><a href="pos-systems.html">POS Systems</a></li>
+              <li><a href="cctv-security.html">CCTV &amp; Surveillance</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h4>Contact</h4>
+            <p>
+              374, PU-4, Opposite Silvotel, <br />
+              Vijay Nagar, Indore (M.P)
+            </p>
+            <p>
+              <a href="tel:+919203408551">+91 92034 08551</a>
+              <a href="tel:+919407407401">+91 94074 07401</a>
+              <a href="tel:+918770189906">+91 87701 89906</a>
+            </p>
+            <p><a href="mailto:Sales@amhsystems.in">Sales@amhsystems.in</a></p>
+          </div>
         </div>
-        <div class="footer-links">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="#brands">Brands</a></li>
-            <li><a href="#clients">Clients</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer-products">
-          <h4>Services</h4>
-          <ul>
-            <li><a href="it-services.html">IT Services</a></li>
-            <li><a href="networking.html">Networking Solutions</a></li>
-            <li><a href="pos-systems.html">POS Systems</a></li>
-            <li><a href="cctv-security.html">CCTV &amp; Surveillance</a></li>
-          </ul>
-        </div>
-        <div class="footer-contact">
-          <h4>Contact</h4>
-          <p>374, PU-4, Opposite Silvotel, <br> Vijay Nagar, Indore (M.P)</p>
+        <div class="footer-bottom">
           <p>
-            <a href="tel:+919203408551">+91 92034 08551</a>
-            <a href="tel:+919407407401">+91 94074 07401</a>
-            <a href="tel:+918770189906">+91 87701 89906</a>
+            &copy; 2024 Future Boxx – Advanced Machine and Hardware (AMH Systems
+            Pvt. Ltd.). All rights reserved.
           </p>
-          <p><a href="mailto:Sales@amhsystems.in">Sales@amhsystems.in</a></p>
         </div>
       </div>
-      <div class="footer-bottom">
-        <p>&copy; 2024 Future Boxx – Advanced Machine and Hardware (AMH Systems Pvt. Ltd.). All rights reserved.</p>
-      </div>
-    </div>
-  </footer>
+    </footer>
 
-  <!-- Scroll to top button -->
-  <button class="scroll-top" id="scrollTopBtn" aria-label="Scroll to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+    <!-- Scroll to top button -->
+    <button
+      class="scroll-top"
+      id="scrollTopBtn"
+      aria-label="Scroll to top"
+      onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+    >
+      ↑
+    </button>
 
-  <script src="main.js"></script>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
