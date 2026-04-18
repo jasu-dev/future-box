@@ -37,13 +37,13 @@ include 'includes/header.php';
   <div class="container">
     <div class="stats-band-grid">
       <div class="stat-band-item fade-in">
-        <span class="stat-band-num">25+</span><span class="stat-band-label">Happy Clients</span>
+        <span class="stat-band-num">20,000+</span><span class="stat-band-label">Happy Clients</span>
       </div>
       <div class="stat-band-item fade-in">
-        <span class="stat-band-num">4</span><span class="stat-band-label">Core Services</span>
+        <span class="stat-band-num">9+</span><span class="stat-band-label">Years of Experience</span>
       </div>
       <div class="stat-band-item fade-in">
-        <span class="stat-band-num">15+</span><span class="stat-band-label">Partner Brands</span>
+        <span class="stat-band-num">50+</span><span class="stat-band-label">Partner Brands</span>
       </div>
       <div class="stat-band-item fade-in">
         <span class="stat-band-num">100%</span><span class="stat-band-label">Client Satisfaction</span>
@@ -95,44 +95,6 @@ include 'includes/header.php';
           src="assets/about-office.png"
           alt="Future Boxx technology office with server room and team workspace"
           loading="lazy" />
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- MISSION & VISION -->
-<section
-  class="section"
-  style="background: linear-gradient(180deg, #0a1020, var(--dark))">
-  <div class="container">
-    <div class="section-header fade-in">
-      <span class="section-tag">What Drives Us</span>
-      <h2 class="section-title">
-        Our Mission &amp; <span class="text-teal">Vision</span>
-      </h2>
-    </div>
-    <div class="mission-vision-grid fade-in">
-      <div class="mv-card mission-bg">
-        <span class="mv-icon">🎯</span>
-        <h3>Mission</h3>
-        <p>
-          To empower businesses and institutions with cutting-edge yet
-          affordable technology solutions. We commit to delivering products
-          of uncompromising quality, backed by professional installation and
-          round-the-clock support. Every client we serve becomes a long-term
-          partner — not just a transaction.
-        </p>
-      </div>
-      <div class="mv-card vision-bg">
-        <span class="mv-icon">🔭</span>
-        <h3>Vision</h3>
-        <p>
-          To be Central India's most trusted and respected technology
-          solutions company — a place where businesses come not just to buy
-          equipment, but to build their entire digital infrastructure with
-          confidence. We envision a future where every business in Indore is
-          digitally empowered, secure, and connected.
-        </p>
       </div>
     </div>
   </div>

@@ -354,13 +354,14 @@ img { max-width: 100%; }
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-15px); }
 }
-.hero-logo-img { width: 400px; height: auto; display: block; object-fit: contain; }
+.hero-logo-img { width: 400px; height: auto; display: block; object-fit: contain; margin: 0 auto;}
 .hero-logo-glow {
   position: absolute;
   inset: -20px;
   background: radial-gradient(ellipse, rgba(94,200,200,0.15), transparent 70%);
   pointer-events: none;
   border-radius: var(--radius-lg);
+  margin: 0 auto;
 }
 
 .hero-scroll-hint {
@@ -704,7 +705,7 @@ img { max-width: 100%; }
 .clients-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 24px;
+  gap: 14px;
 }
 .client-card {
   display: flex;
@@ -715,7 +716,7 @@ img { max-width: 100%; }
   background: var(--card-bg);
   border: 1px solid var(--card-border);
   border-radius: var(--radius);
-  padding: 32px 20px;
+  padding: 15px;
   transition: var(--transition);
   position: relative;
   height: 100%;
@@ -727,9 +728,9 @@ img { max-width: 100%; }
   background: rgba(94, 200, 200, 0.04);
 }
 .client-logo {
-  height: 60px;
+  height: 50px;
   width: auto;
-  max-width: 140px;
+  max-width: 130px;
   object-fit: contain;
   margin-bottom: 20px;
   filter: grayscale(1) opacity(0.7);
@@ -1357,7 +1358,7 @@ section .fade-in {
 .stat-band-item:last-child { border-right: none; }
 .stat-band-num {
   font-family: var(--font-main);
-  font-size: 3rem;
+  font-size: 2.2rem;
   font-weight: 900;
   color: var(--teal);
   line-height: 1;
@@ -1481,7 +1482,7 @@ section .fade-in {
 
 @media (max-width: 900px) {
   .hero { flex-direction: column; padding-top: 100px; }
-  .hero-visual { position: relative; right: auto; top: auto; transform: none; order: -1; margin: 0 auto 40px; }
+  .hero-visual { position: relative; right: auto; top: auto; transform: none; order: -1; margin: 40px auto 40px; }
   .hero-logo-img { width: 220px; }
   .about-grid { grid-template-columns: 1fr; gap: 40px; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
@@ -1497,7 +1498,7 @@ section .fade-in {
 
 @media (max-width: 768px) {
   .section { padding: 70px 0; }
-  .nav-links { display: none; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: rgba(10,10,24,0.98); border-bottom: 1px solid var(--border); padding: 20px; gap: 4px; }
+  .nav-links { display: none; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: rgba(10,10,24,0.98); border-bottom: 1px solid var(--border); padding: 40px 20px; gap: 20px; }
   .nav-links.open { display: flex; }
   .hamburger { display: flex; }
   .products-grid { grid-template-columns: 1fr; }
@@ -1516,11 +1517,9 @@ section .fade-in {
   .footer-grid { grid-template-columns: 1fr; }
   .clients-grid { grid-template-columns: 1fr 1fr; }
   .whyus-grid { grid-template-columns: 1fr; }
-  .hero-actions { flex-direction: column; }
   .contact-form { padding: 24px; }
   .hero-stats .stat-divider { display: none; }
   .stats-band-grid { grid-template-columns: 1fr 1fr; }
   .stat-band-item { border-right: none; border-bottom: 1px solid rgba(94,200,200,0.1); }
-  .stat-band-item:last-child { border-bottom: none; }
   .page-hero-actions { flex-direction: column; align-items: center; }
 }
