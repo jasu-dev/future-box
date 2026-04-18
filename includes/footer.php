@@ -23,17 +23,17 @@
                 <h4>Quick Links</h4>
                 <ul>
                     <li><a href="#home">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.php">About Us</a></li>
+                    <li><a href="services.php">Services</a></li>
                     <li><a href="#brands">Brands</a></li>
                     <li><a href="#clients">Clients</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                 </ul>
             </div>
             <div class="footer-products">
                 <h4>Services</h4>
                 <ul>
-                    <li><a href="it-services.html">IT Services</a></li>
+                    <li><a href="it-services.php">IT Services</a></li>
                     <li><a href="networking.html">Networking Solutions</a></li>
                     <li><a href="pos-systems.html">POS Systems</a></li>
                     <li><a href="cctv-security.html">CCTV &amp; Surveillance</a></li>

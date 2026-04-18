@@ -10,7 +10,7 @@ include 'includes/header.php';
   <div class="page-hero-glow"></div>
   <div class="page-hero-content fade-in">
     <nav class="breadcrumb">
-      <a href="index.html">Home</a><span>›</span><span>About Us</span>
+      <a href="index.php">Home</a><span>›</span><span>About Us</span>
     </nav>
     <div
       class="hero-badge"
@@ -26,8 +26,8 @@ include 'includes/header.php';
       since our founding.
     </p>
     <div class="page-hero-actions">
-      <a href="contact.html" class="btn btn-primary">Get in Touch</a>
-      <a href="services.html" class="btn btn-outline">Our Services</a>
+      <a href="contact.php" class="btn btn-primary">Get in Touch</a>
+      <a href="services.php" class="btn btn-outline">Our Services</a>
     </div>
   </div>
 </section>
@@ -219,7 +219,7 @@ include 'includes/header.php';
     </div>
     <div class="services-overview-grid fade-in">
       <a
-        href="it-services.html"
+        href="it-services.php"
         class="service-overview-card"
         style="text-decoration: none; color: inherit">
         <div class="sov-icon-wrap">
@@ -368,8 +368,8 @@ include 'includes/header.php';
         solution together — at the right price.
       </p>
       <div class="cta-actions">
-        <a href="contact.html" class="btn btn-primary">Contact Us Today</a>
-        <a href="services.html" class="btn btn-outline">Explore Services</a>
+        <a href="contact.php" class="btn btn-primary">Contact Us Today</a>
+        <a href="services.php" class="btn btn-outline">Explore Services</a>
       </div>
     </div>
   </div>

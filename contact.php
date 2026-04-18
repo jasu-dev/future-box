@@ -11,7 +11,7 @@ include 'includes/header.php';
   <div class="page-hero-glow"></div>
   <div class="page-hero-content fade-in">
     <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="index.html">Home</a>
+      <a href="index.php">Home</a>
       <span>›</span>
       <span>Contact Us</span>
     </nav>
@@ -196,7 +196,7 @@ include 'includes/header.php';
       </p>
       <div class="cta-actions">
         <a href="tel:+919826068900" class="btn btn-primary">📞 +91 98260 68900</a>
-        <a href="services.html" class="btn btn-outline">View Our Services</a>
+        <a href="services.php" class="btn btn-outline">View Our Services</a>
       </div>
     </div>
   </div>

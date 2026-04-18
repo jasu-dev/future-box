@@ -32,7 +32,7 @@ include 'includes/header.php';
       </p>
       <div class="hero-actions">
         <a
-          href="services.html"
+          href="services.php"
           class="btn btn-primary"
           id="hero-explore-btn">Explore Services</a>
         <a href="contact.php" class="btn btn-outline" id="hero-contact-btn">Get in Touch</a>
@@ -182,7 +182,7 @@ include 'includes/header.php';
         </ul>
         <div class="product-tag">Services</div>
         <a
-          href="it-services.html"
+          href="it-services.php"
           class="sov-link"
           style="margin-top: 16px; display: inline-flex; font-size: 0.88rem">Learn More →</a>
       </div>

@@ -10,7 +10,7 @@ include 'includes/header.php';
   <div class="page-hero-glow"></div>
   <div class="page-hero-content fade-in">
     <nav class="breadcrumb" aria-label="breadcrumb">
-      <a href="index.html">Home</a>
+      <a href="index.php">Home</a>
       <span>›</span>
       <span>Services</span>
     </nav>
@@ -35,7 +35,7 @@ include 'includes/header.php';
     <div class="services-overview-grid fade-in">
       <!-- IT Services -->
       <a
-        href="it-services.html"
+        href="it-services.php"
         class="service-overview-card"
         style="text-decoration: none; color: inherit">
         <div class="sov-icon-wrap">
@@ -218,8 +218,8 @@ include 'includes/header.php';
         your specific requirements.
       </p>
       <div class="cta-actions">
-        <a href="contact.html" class="btn btn-primary">Talk to an Expert</a>
-        <a href="about.html" class="btn btn-outline">About Future Boxx</a>
+        <a href="contact.php" class="btn btn-primary">Talk to an Expert</a>
+        <a href="about.php" class="btn btn-outline">About Future Boxx</a>
       </div>
     </div>
   </div>
