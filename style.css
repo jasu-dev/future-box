@@ -354,7 +354,7 @@ img { max-width: 100%; }
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-15px); }
 }
-.hero-logo-img { width: 340px; height: auto; display: block; object-fit: contain; }
+.hero-logo-img { width: 400px; height: auto; display: block; object-fit: contain; }
 .hero-logo-glow {
   position: absolute;
   inset: -20px;
