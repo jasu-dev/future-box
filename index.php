@@ -18,7 +18,7 @@ include 'includes/header.php';
     <div class="hero-content">
       <div class="hero-badge">
         <span class="badge-dot"></span>
-        Advanced Machine &amp; Hardware Solutions
+        Advanced Machine &amp; Hardware
       </div>
       <h1 class="hero-title">
         Powering Your<br />
@@ -1053,7 +1053,7 @@ include 'includes/header.php';
         <!-- Map embed placeholder -->
         <div class="contact-map-card">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.738!2d75.8891!3d22.7196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDQzJzEwLjYiTiA3NcKwNTMnMjEuMiJF!5e0!3m2!1sen!2sin!4v1234567890"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.499503968138!2d75.89397707555291!3d22.746836926561297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fd32c68d1c45%3A0x41697eaf4575a09e!2sFUTURE%20BOXX!5e0!3m2!1sen!2sin!4v1776513764336!5m2!1sen!2sin"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
