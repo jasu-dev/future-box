@@ -950,6 +950,37 @@ img { max-width: 100%; }
 .footer-contact a { color: var(--text-muted); transition: var(--transition); }
 .footer-contact a:hover { color: var(--teal); }
 
+.footer-social {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+.footer-social a {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  color: var(--teal);
+  transition: var(--transition);
+  backdrop-filter: blur(8px);
+}
+.footer-social a:hover {
+  background: var(--teal);
+  color: var(--dark);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-teal);
+  border-color: var(--teal);
+}
+.social-icon {
+  width: 18px;
+  height: 18px;
+  transition: var(--transition);
+}
+
 .footer-bottom {
   border-top: 1px solid rgba(255,255,255,0.05);
   padding: 24px 0;
