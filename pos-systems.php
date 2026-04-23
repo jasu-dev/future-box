@@ -1,46 +1,9 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>POS Systems – Future Boxx | Billing Solutions Indore</title>
-    <meta
-      name="description"
-      content="Future Boxx POS Systems in Indore: POS machines, barcode scanners, billing software, and inventory management for retail businesses."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <nav class="navbar scrolled" id="navbar">
-      <div class="nav-container">
-        <a href="index.php" class="nav-logo"
-          ><img
-            src="assets/logo_final.png"
-            alt="Future Boxx Logo"
-            id="nav-logo-img"
-        /></a>
-        <ul class="nav-links" id="navLinks">
-          <li><a href="index.php" class="nav-link">Home</a></li>
-          <li><a href="about.php" class="nav-link">About</a></li>
-          <li><a href="services.php" class="nav-link active">Services</a></li>
-          <li><a href="index.php#brands" class="nav-link">Brands</a></li>
-          <li><a href="index.php#clients" class="nav-link">Clients</a></li>
-          <li>
-            <a href="contact.php" class="nav-link nav-cta">Contact Us</a>
-          </li>
-        </ul>
-        <button class="hamburger" id="hamburger" aria-label="Menu">
-          <span></span><span></span><span></span>
-        </button>
-      </div>
-    </nav>
-
+<?php
+$page_title = 'POS Systems – Future Boxx | Billing Solutions Indore';
+$page_description = 'Future Boxx POS Systems in Indore: POS machines, barcode scanners, billing software, and inventory management for retail businesses.';
+$page_name = 'pos-systems';
+include 'includes/header.php';
+?>
     <section class="page-hero">
       <div class="page-hero-bg-grid"></div>
       <div class="page-hero-glow"></div>
@@ -105,14 +68,6 @@
               <li>Cloud backup of all sales data</li>
               <li>Works offline — no internet downtime risk</li>
             </ul>
-            <div class="brands-logo-row">
-              <span class="brand-chip">Epson</span>
-              <span class="brand-chip">Honeywell</span>
-              <span class="brand-chip">Zebra</span>
-              <span class="brand-chip">Posiflex</span>
-              <span class="brand-chip">iMin</span>
-              <span class="brand-chip">Citizen</span>
-            </div>
             <div
               style="
                 margin-top: 28px;
@@ -124,7 +79,7 @@
               <a href="contact.php" class="btn btn-primary"
                 >Get a POS Quote →</a
               >
-              <a href="tel:+919826068900" class="btn btn-outline"
+              <a href="tel:+919203408551" class="btn btn-outline"
                 >📞 Call Now</a
               >
             </div>
@@ -293,27 +248,6 @@
       </div>
     </section>
 
-    <section class="section" style="background: var(--dark)">
-      <div class="container" style="max-width: 860px">
-        <div class="quote-card fade-in">
-          <div class="quote-mark">"</div>
-          <p class="quote-text">
-            We switched to Future Boxx's POS for our 3 pharmacy branches. The
-            inventory management is excellent — we get low-stock alerts before
-            running out. GST billing is completely automated. Our billing errors
-            have dropped to zero.
-          </p>
-          <div class="quote-author">
-            <div class="quote-avatar">A</div>
-            <div class="quote-info">
-              <strong>Ankit Jain</strong
-              ><span>Owner, Jain Medical Store (3 Branches), Indore</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <section
       class="section"
       style="background: linear-gradient(180deg, var(--dark), #0a1020)"
@@ -329,82 +263,12 @@
           </p>
           <div class="cta-actions">
             <a href="contact.php" class="btn btn-primary">Book a Free Demo</a>
-            <a href="tel:+919826068900" class="btn btn-outline">📞 Call Now</a>
+            <a href="tel:+919203408551" class="btn btn-outline">📞 Call Now</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ===== FOOTER ===== -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-grid">
-          <div class="footer-brand">
-            <img
-              src="assets/logo_final.png"
-              alt="Future Boxx"
-              class="footer-logo"
-            />
-            <p>
-              Advanced Machine and Hardware solutions for a connected, secure,
-              and efficient digital world.
-            </p>
-            <p>
-              AMH Systems Pvt. Ltd. is Your Trusted Technology Partner Since
-              2017.
-            </p>
-            <div class="footer-gst">GST: 23ABECA9764B1ZT</div>
-          </div>
-          <div class="footer-links">
-            <h4>Quick Links</h4>
-            <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="about.php">About Us</a></li>
-              <li><a href="services.php">Services</a></li>
-              <li><a href="#brands">Brands</a></li>
-              <li><a href="#clients">Clients</a></li>
-              <li><a href="contact.php">Contact</a></li>
-            </ul>
-          </div>
-          <div class="footer-products">
-            <h4>Services</h4>
-            <ul>
-              <li><a href="it-services.php">IT Services</a></li>
-              <li><a href="networking.html">Networking Solutions</a></li>
-              <li><a href="pos-systems.html">POS Systems</a></li>
-              <li><a href="cctv-security.html">CCTV &amp; Surveillance</a></li>
-            </ul>
-          </div>
-          <div class="footer-contact">
-            <h4>Contact</h4>
-            <p>
-              374, PU-4, Opposite Silvotel, <br />
-              Vijay Nagar, Indore (M.P)
-            </p>
-            <p>
-              <a href="tel:+919203408551">+91 92034 08551</a>
-              <a href="tel:+919407407401">+91 94074 07401</a>
-              <a href="tel:+918770189906">+91 87701 89906</a>
-            </p>
-            <p><a href="mailto:Sales@amhsystems.in">Sales@amhsystems.in</a></p>
-          </div>
-        </div>
-        <div class="footer-bottom">
-          <p>
-            &copy; 2024 Future Boxx – Advanced Machine and Hardware (AMH Systems
-            Pvt. Ltd.). All rights reserved.
-          </p>
-        </div>
-      </div>
-    </footer>
-    <button
-      class="scroll-top"
-      id="scrollTopBtn"
-      aria-label="Scroll to top"
-      onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
-    >
-      ↑
-    </button>
-    <script src="main.js"></script>
-  </body>
-</html>
+<?php
+include 'includes/footer.php';
+?>

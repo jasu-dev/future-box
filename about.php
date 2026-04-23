@@ -208,7 +208,7 @@ include 'includes/header.php';
         </div>
       </a>
       <a
-        href="networking.html"
+        href="networking.php"
         class="service-overview-card"
         style="text-decoration: none; color: inherit">
         <div class="sov-icon-wrap">
@@ -248,7 +248,7 @@ include 'includes/header.php';
         </div>
       </a>
       <a
-        href="pos-systems.html"
+        href="pos-systems.php"
         class="service-overview-card"
         style="text-decoration: none; color: inherit">
         <div class="sov-icon-wrap">
@@ -282,7 +282,7 @@ include 'includes/header.php';
         </div>
       </a>
       <a
-        href="cctv-security.html"
+        href="cctv-security.php"
         class="service-overview-card"
         style="text-decoration: none; color: inherit">
         <div class="sov-icon-wrap">

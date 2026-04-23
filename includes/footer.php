@@ -51,9 +51,9 @@
                 <h4>Services</h4>
                 <ul>
                     <li><a href="it-services.php">IT Services</a></li>
-                    <li><a href="networking.html">Networking Solutions</a></li>
-                    <li><a href="pos-systems.html">POS Systems</a></li>
-                    <li><a href="cctv-security.html">CCTV &amp; Surveillance</a></li>
+                    <li><a href="networking.php">Networking Solutions</a></li>
+                    <li><a href="pos-systems.php">POS Systems</a></li>
+                    <li><a href="cctv-security.php">CCTV &amp; Surveillance</a></li>
                 </ul>
             </div>
             <div class="footer-contact">

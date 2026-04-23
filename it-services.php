@@ -1,49 +1,10 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      IT Services – Future Boxx | System Maintenance & Support Indore
-    </title>
-    <meta
-      name="description"
-      content="Future Boxx provides professional IT Services in Indore including system maintenance, data recovery, hardware upgrades, IT consulting, and Annual Maintenance Contracts."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <nav class="navbar scrolled" id="navbar">
-      <div class="nav-container">
-        <a href="index.php" class="nav-logo">
-          <img
-            src="assets/logo_final.png"
-            alt="Future Boxx Logo"
-            id="nav-logo-img"
-          />
-        </a>
-        <ul class="nav-links" id="navLinks">
-          <li><a href="index.php" class="nav-link">Home</a></li>
-          <li><a href="about.php" class="nav-link">About</a></li>
-          <li><a href="services.php" class="nav-link active">Services</a></li>
-          <li><a href="index.php#brands" class="nav-link">Brands</a></li>
-          <li><a href="index.php#clients" class="nav-link">Clients</a></li>
-          <li>
-            <a href="contact.php" class="nav-link nav-cta">Contact Us</a>
-          </li>
-        </ul>
-        <button class="hamburger" id="hamburger" aria-label="Menu">
-          <span></span><span></span><span></span>
-        </button>
-      </div>
-    </nav>
+<?php
+$page_title = 'IT Services – Future Boxx | System Maintenance & Support Indore';
+$page_description = "Future Boxx provides professional IT Services in Indore including system maintenance, data recovery, hardware upgrades, IT consulting, and Annual Maintenance Contracts.";
+$page_name = 'it-services';
 
+include 'includes/header.php';
+?>
     <!-- HERO -->
     <section class="page-hero">
       <div class="page-hero-bg-grid"></div>
@@ -132,7 +93,6 @@
               <span class="brand-chip">Dell</span>
               <span class="brand-chip">HP</span>
               <span class="brand-chip">Lenovo</span>
-              <span class="brand-chip">Acer</span>
               <span class="brand-chip">Asus</span>
               <span class="brand-chip">Intel</span>
               <span class="brand-chip">AMD</span>
@@ -248,158 +208,6 @@
       </div>
     </section>
 
-    <!-- AMC PLANS -->
-    <section
-      class="section"
-      style="background: linear-gradient(135deg, #0a1020, #0d1535)"
-    >
-      <div class="container">
-        <div class="section-header fade-in">
-          <span class="section-tag">Maintenance Plans</span>
-          <h2 class="section-title">
-            Annual Maintenance <span class="text-teal">Contracts (AMC)</span>
-          </h2>
-          <p class="section-subtitle">
-            Choose a plan that fits your business size and IT requirements
-          </p>
-        </div>
-        <div
-          class="whyus-grid fade-in"
-          style="grid-template-columns: repeat(3, 1fr)"
-        >
-          <div class="why-card" style="text-align: center; padding: 40px 28px">
-            <div
-              class="why-number"
-              style="
-                font-size: 1rem;
-                width: auto;
-                height: auto;
-                border-radius: 20px;
-                padding: 6px 16px;
-                margin: 0 auto 20px;
-              "
-            >
-              BASIC
-            </div>
-            <h3 style="font-size: 1.4rem; margin-bottom: 8px">Starter AMC</h3>
-            <p
-              style="
-                color: var(--teal);
-                font-size: 0.85rem;
-                margin-bottom: 20px;
-              "
-            >
-              Ideal for small offices (up to 5 systems)
-            </p>
-            <ul class="check-list" style="text-align: left">
-              <li>2 preventive maintenance visits/year</li>
-              <li>Unlimited support calls</li>
-              <li>48-hour response time</li>
-              <li>10% discount on parts</li>
-            </ul>
-            <a
-              href="contact.php"
-              class="btn btn-outline"
-              style="margin-top: 24px; width: 100%; justify-content: center"
-              >Get Quote</a
-            >
-          </div>
-          <div
-            class="why-card"
-            style="
-              text-align: center;
-              padding: 40px 28px;
-              border-color: rgba(94, 200, 200, 0.4);
-              background: rgba(94, 200, 200, 0.05);
-            "
-          >
-            <div
-              class="why-number"
-              style="
-                font-size: 1rem;
-                width: auto;
-                height: auto;
-                border-radius: 20px;
-                padding: 6px 16px;
-                margin: 0 auto 20px;
-                background: linear-gradient(
-                  135deg,
-                  var(--teal),
-                  var(--teal-dark)
-                );
-                color: var(--dark);
-              "
-            >
-              POPULAR
-            </div>
-            <h3 style="font-size: 1.4rem; margin-bottom: 8px">Business AMC</h3>
-            <p
-              style="
-                color: var(--teal);
-                font-size: 0.85rem;
-                margin-bottom: 20px;
-              "
-            >
-              Ideal for offices (6–20 systems)
-            </p>
-            <ul class="check-list" style="text-align: left">
-              <li>4 preventive maintenance visits/year</li>
-              <li>Unlimited priority support calls</li>
-              <li>24-hour response time</li>
-              <li>20% discount on parts &amp; service</li>
-              <li>Remote support included</li>
-            </ul>
-            <a
-              href="contact.php"
-              class="btn btn-primary"
-              style="margin-top: 24px; width: 100%; justify-content: center"
-              >Get Quote</a
-            >
-          </div>
-          <div class="why-card" style="text-align: center; padding: 40px 28px">
-            <div
-              class="why-number"
-              style="
-                font-size: 1rem;
-                width: auto;
-                height: auto;
-                border-radius: 20px;
-                padding: 6px 16px;
-                margin: 0 auto 20px;
-              "
-            >
-              ENTERPRISE
-            </div>
-            <h3 style="font-size: 1.4rem; margin-bottom: 8px">
-              Enterprise AMC
-            </h3>
-            <p
-              style="
-                color: var(--teal);
-                font-size: 0.85rem;
-                margin-bottom: 20px;
-              "
-            >
-              For large offices &amp; institutions (20+ systems)
-            </p>
-            <ul class="check-list" style="text-align: left">
-              <li>Monthly preventive maintenance visits</li>
-              <li>Dedicated support engineer</li>
-              <li>4-hour emergency response</li>
-              <li>30% discount on all parts</li>
-              <li>Free loaner system during repairs</li>
-            </ul>
-            <a
-              href="contact.php"
-              class="btn btn-outline"
-              style="margin-top: 24px; width: 100%; justify-content: center"
-              >Get Quote</a
-            >
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- PROCESS -->
     <section class="section process-section">
       <div class="container">
@@ -453,28 +261,6 @@
       </div>
     </section>
 
-    <!-- TESTIMONIAL -->
-    <section class="section" style="background: var(--dark)">
-      <div class="container" style="max-width: 860px">
-        <div class="quote-card fade-in">
-          <div class="quote-mark">"</div>
-          <p class="quote-text">
-            Future Boxx has been our IT partner for over 2 years. Their
-            engineers are fast, honest, and thorough. When our server crashed on
-            a Monday morning, they had us back up and running within 3 hours.
-            That kind of reliability is priceless for a business like ours.
-          </p>
-          <div class="quote-author">
-            <div class="quote-avatar">R</div>
-            <div class="quote-info">
-              <strong>Rajesh Sharma</strong>
-              <span>Director, Sharma &amp; Associates Law Firm, Indore</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- CTA -->
     <section
       class="section"
@@ -489,8 +275,8 @@
           </p>
           <div class="cta-actions">
             <a href="contact.php" class="btn btn-primary">Contact Us Today</a>
-            <a href="tel:+919826068900" class="btn btn-outline"
-              >📞 +91 98260 68900</a
+            <a href="tel:+919203408551" class="btn btn-outline"
+              >📞 +91 92034 08551</a
             >
           </div>
         </div>
@@ -508,7 +294,7 @@
         </div>
         <div class="services-overview-grid fade-in">
           <a
-            href="networking.html"
+            href="networking.php"
             class="service-overview-card"
             style="text-decoration: none; color: inherit"
           >
@@ -553,7 +339,7 @@
             </div>
           </a>
           <a
-            href="pos-systems.html"
+            href="pos-systems.php"
             class="service-overview-card"
             style="text-decoration: none; color: inherit"
           >
@@ -591,7 +377,7 @@
             </div>
           </a>
           <a
-            href="cctv-security.html"
+            href="cctv-security.php"
             class="service-overview-card"
             style="text-decoration: none; color: inherit"
           >
@@ -630,77 +416,6 @@
         </div>
       </div>
     </section>
-
-    <!-- ===== FOOTER ===== -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-grid">
-          <div class="footer-brand">
-            <img
-              src="assets/logo_final.png"
-              alt="Future Boxx"
-              class="footer-logo"
-            />
-            <p>
-              Advanced Machine and Hardware solutions for a connected, secure,
-              and efficient digital world.
-            </p>
-            <p>
-              AMH Systems Pvt. Ltd. is Your Trusted Technology Partner Since
-              2017.
-            </p>
-            <div class="footer-gst">GST: 23ABECA9764B1ZT</div>
-          </div>
-          <div class="footer-links">
-            <h4>Quick Links</h4>
-            <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="about.php">About Us</a></li>
-              <li><a href="services.php">Services</a></li>
-              <li><a href="#brands">Brands</a></li>
-              <li><a href="#clients">Clients</a></li>
-              <li><a href="contact.php">Contact</a></li>
-            </ul>
-          </div>
-          <div class="footer-products">
-            <h4>Services</h4>
-            <ul>
-              <li><a href="it-services.php">IT Services</a></li>
-              <li><a href="networking.html">Networking Solutions</a></li>
-              <li><a href="pos-systems.html">POS Systems</a></li>
-              <li><a href="cctv-security.html">CCTV &amp; Surveillance</a></li>
-            </ul>
-          </div>
-          <div class="footer-contact">
-            <h4>Contact</h4>
-            <p>
-              374, PU-4, Opposite Silvotel, <br />
-              Vijay Nagar, Indore (M.P)
-            </p>
-            <p>
-              <a href="tel:+919203408551">+91 92034 08551</a>
-              <a href="tel:+919407407401">+91 94074 07401</a>
-              <a href="tel:+918770189906">+91 87701 89906</a>
-            </p>
-            <p><a href="mailto:Sales@amhsystems.in">Sales@amhsystems.in</a></p>
-          </div>
-        </div>
-        <div class="footer-bottom">
-          <p>
-            &copy; 2024 Future Boxx – Advanced Machine and Hardware (AMH Systems
-            Pvt. Ltd.). All rights reserved.
-          </p>
-        </div>
-      </div>
-    </footer>
-    <button
-      class="scroll-top"
-      id="scrollTopBtn"
-      aria-label="Scroll to top"
-      onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
-    >
-      ↑
-    </button>
-    <script src="main.js"></script>
-  </body>
-</html>
+<?php
+include 'includes/footer.php';
+?>

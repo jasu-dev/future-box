@@ -235,7 +235,7 @@ include 'includes/header.php';
         <div class="product-tag">Networking</div>
         <div class="featured-badge">Most Popular</div>
         <a
-          href="networking.html"
+          href="networking.php"
           class="sov-link"
           style="margin-top: 16px; display: inline-flex; font-size: 0.88rem">Learn More →</a>
       </div>
@@ -283,7 +283,7 @@ include 'includes/header.php';
         </ul>
         <div class="product-tag">Retail</div>
         <a
-          href="pos-systems.html"
+          href="pos-systems.php"
           class="sov-link"
           style="margin-top: 16px; display: inline-flex; font-size: 0.88rem">Learn More →</a>
       </div>
@@ -330,7 +330,7 @@ include 'includes/header.php';
         <div class="product-tag">Security</div>
         <div class="featured-badge">Most Popular</div>
         <a
-          href="cctv-security.html"
+          href="cctv-security.php"
           class="sov-link"
           style="margin-top: 16px; display: inline-flex; font-size: 0.88rem">Learn More →</a>
       </div>
