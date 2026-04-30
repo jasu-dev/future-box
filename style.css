@@ -1554,3 +1554,62 @@ section .fade-in {
   .stat-band-item { border-right: none; border-bottom: 1px solid rgba(94,200,200,0.1); }
   .page-hero-actions { flex-direction: column; align-items: center; }
 }
+
+.ask-ai-section {
+  width: 100%;
+  padding-bottom: 24px;
+  padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .ask-ai-section {
+    padding-bottom: 0;
+  }
+}
+
+.ask-ai-title {
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #3b3b3b;
+}
+
+.ask-ai-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.ask-ai-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: #f3f4f6;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.ask-ai-btn:hover {
+  background: #e5e7eb;
+}
+
+.ask-ai-btn svg {
+  opacity: 0.8;
+}
+
+.ask-ai-btn.chatgpt svg {
+  width: 28px;
+  height: 28px;
+}
+
+.ask-ai-btn.claude svg,
+.ask-ai-btn.perplexity svg,
+.ask-ai-btn.gemini svg {
+  width: 20px;
+  height: 20px;
+}
